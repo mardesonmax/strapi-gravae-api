@@ -1,0 +1,36 @@
+{
+    "kind": "collectionType",
+    "collectionName": "depositions",
+    "info": {
+        "singularName": "deposition",
+        "pluralName": "depositions",
+        "displayName": "Deposition",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "deposition": {
+            "type": "text",
+            "required": true
+        },
+        "avatar": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "sport": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

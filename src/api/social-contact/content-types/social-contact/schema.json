@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_contacts",
+  "info": {
+    "singularName": "social-contact",
+    "pluralName": "social-contacts",
+    "displayName": "SocialContact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

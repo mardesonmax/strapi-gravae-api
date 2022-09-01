@@ -1,0 +1,19 @@
+{
+    "kind": "singleType",
+    "collectionName": "previews",
+    "info": {
+        "singularName": "preview",
+        "pluralName": "previews",
+        "displayName": "Preview"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "youtube_video_url": {
+            "type": "text",
+            "required": true
+        }
+    }
+}
